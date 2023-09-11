@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Conveter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="main-container">
+            <div class="top-container">
+                <div class="btn-container">
+                    <button class="btn currency-btn">Currency Converter</button>
+                    <button class="btn exchange-rate-btn">MDL Exchange Rate</button>
+                </div>
+                <h1 class="exchange-rate-info"></h1>
+                <span class="invert-currency">invert currency<i class="fa-solid fa-arrows-up-down"></i></span>
+
+            </div>
+            <form>
+                <div class="bottom-container">
+                    <div class="input-container">
+                        <input class="input" type="number" placeholder="Enter Amount to convert...">
+
+                    </div>
+                    <hr class="horizontal-line">
+
+                    <!--select currency-->
+                    <div class="select-center">
+                        <div class="currency-container">
+                            <label class="label label-first" for="currency-first">From:</label>
+                            <select class="currency" id="currency-first">
+
+                            </select>
+
+
+
+                        </div>
+                        <hr class="horizontal-line">
+                        <div class="currency-container">
+                            <label class="label label-second" for="currency-second">To:</label>
+                            <select class="currency" id="currency-second">
+
+                            </select>
+                        </div>
+
+                    </div>
+                    <hr class="horizontal-line">
+
+                    <!--cconversion rate-->
+                    <div class="currency-rate">
+                        <p>Conversion Rate (Buy/Sell):</p>
+                        <h1 class="conversion-rate"></h1>
+
+                    </div>
+                    <hr class="horizontal-line">
+
+                    <!--date container-->
+                    <div class="date-container">
+                        <p class="updated">Last Updated:<span class="updated"></span></p>
+                        <p>Locale:<span><select class="locale" id="locale">
+                                    <option class="option" value="en-US">en-US</option>
+                                </select></span></p>
+
+                    </div>
+
+                </div>
+            </form>
+
+
+        </div>
+        <!--side container-->
+
+        <!-- <div class="side-container">
+            <div class="side-container-1">
+                <h1>MDL <span>Moldovan Leau</span></h1>
+                <div class="currency-details">
+                    <p class="country">Country: <span>Moldova</span></p>
+                    <p class="region">Region: <span>Europe</span></p>
+                    <p class="sub-unit">Sub Unit: <span>1 MDL=100 ban</span></p>
+                    <p class="symbol">Symbol: <span></span></p>
+                    <p class="currency-history">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="links">
+
+                        <li><a href="#">MDL Exchange Rates</a></li>
+                        <li><a href="#">National Bank of Moldova</a></li>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="side-container-2">
+                <h1>GHS <span>Ghana Cedi</span></h1>
+                <div class="currency-details">
+                    <p class="country">Country: <span>Ghana</span></p>
+                    <p class="region">Region: <span>Africa</span></p>
+                    <p class="sub-unit">Sub Unit: <span>1 GHS=100 pesewas</span></p>
+                    <p class="symbol">Symbol: <span></span></p>
+                    <p class="currency-history">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="links">
+
+                        <li><a href="#">GHS Exchange Rates</a></li>
+                        <li><a href="#">Bank of Ghana</a></li>
+
+                    </div>
+                </div>
+            </div>
+
+        </div> -->
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

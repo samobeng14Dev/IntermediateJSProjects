@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionary App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <p class="info-text">an error occured, try again later</p>
+        <input type=" text" class="input" placeholder="type a word and press Enter" />
+        <div class="word-container">
+            <h2 class="word">Word</h2>
+            <audio src="" controls class="audio"></audio>
+            <p class="phonetic-p">Phonetic:<span class="phonetic"></span></p>
+        </div>
+
+        <div class="btn-container">
+            <button class="btn definition-btn">Definition</button>
+            <button class="btn synonym-btn">Synonym</button>
+            <button class="btn example-btn">Example</button>
+        </div>
+        <div class="meaning-container">
+            <h4 class="meaning-title">Noun</h4>
+            <p class="meaning-p">Definition:<span class="definition span-p"></span></p>
+            <p class="meaning-p">Synonym:<span class="synonym span-p"></span></p>
+            <p class="meaning-p">Example:<span class="example span-p"></span></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

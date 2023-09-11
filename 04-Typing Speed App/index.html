@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" class="input-text">
+
+        <div class="content-box">
+            <div class="typing-text">
+                <p></p>
+            </div>
+            <!-- <div class="gameOver">
+                <h1>Congratulations !</h1>
+                <p>Mistakes: <span class="errors"></span></p>
+                <p>Correct Per Minute: <span class="gameOver-cpm"></span></p>
+                <p>Word Per Minute: <span class="gameOver-wpm"></span></p>
+            </div> -->
+            <div class="content">
+                <ul class="result-details">
+                    <li class="time">
+                        <p>Time left:</p>
+                        <span><b></b>s</span>
+                    </li>
+
+                    <!--mistakes-->
+                    <li class="mistakes">
+                        <p>Mistakes:</p>
+                        <span>0</span>
+                    </li>
+
+                    <!--wpm-->
+                    <li class="wpm">
+                        <p>WPM:</p>
+                        <span>0</span>
+                    </li>
+
+                    <!--CPM-->
+                    <li class="cpm">
+                        <p>CPM:</p>
+                        <span>0</span>
+                    </li>
+
+                    <button class="btn restart-button">Restart</button>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

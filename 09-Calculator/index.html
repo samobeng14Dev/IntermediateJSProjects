@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calc-container">
+        <!---->
+        <div class="clock">
+            <p id="time">TIME</p>
+        </div>
+        <!--screen-->
+        <div class="display">
+
+            <input type="text" id="screen" readonly placeholder="0">
+            <!--calculator buttons-->
+            <div class="keys">
+
+                <p>
+                    <input type="button" value="sin" class="btn btn-sign sin-btn">
+                    <input type="button" value="cos" class="btn btn-sign cos-btn">
+                    <input type="button" value="tan" class="btn btn-sign tan-btn">
+                    <input type="button" value="asin" class="btn btn-sign asin-btn">
+                    <input type="button" value="acos" class="btn btn-sign acos-btn">
+                </p>
+                <p>
+                    <input type="button" value="atan" class="btn btn-sign atan-btn">
+                    <input type="button" value="𝝅" class="btn btn-sign">
+                    <input type="button" value="In" class="btn btn-sign in-btn">
+                    <input type="button" value="log" class="btn btn-sign log-btn">
+                    <input type="button" value="%" class="btn btn-sign percent-btn">
+                </p>
+                <p>
+                    <input type="button" value="sqd" class="btn btn-sign square-btn">
+                    <input type="button" value="cube" class="btn btn-sign cube-btn">
+                    <input type="button" value="√" class="btn btn-sign square-root-btn">
+                    <input type="button" value="(" class="btn btn-sign btn-num">
+                    <input type="button" value=")" class="btn btn-sign btn-num">
+                </p>
+                <p style="margin-top: 30px;">
+                    <input type="button" value="7" class="btn btn-num ">
+                    <input type="button" value="8" class="btn btn-num">
+                    <input type="button" value="9" class="btn btn-num">
+                    <input type="button" value="Del" class="btn btn-red del">
+                    <input type="button" value="C" class="btn btn-red clear">
+                </p>
+                <p>
+                    <input type="button" value="4" class="btn btn-num">
+                    <input type="button" value="5" class="btn btn-num">
+                    <input type="button" value="6" class="btn btn-num">
+                    <input type="button" value="*" class="btn btn-opera multiply operator">
+                    <input type="button" value="/" class="btn btn-opera divide operator">
+                </p>
+                <p>
+                    <input type="button" value="1" class="btn btn-num ">
+                    <input type="button" value="2" class="btn btn-num">
+                    <input type="button" value="3" class="btn btn-num">
+                    <input type="button" value="+" class="btn btn-opera add operator">
+                    <input type="button" value="-" class="btn btn-opera subtract operator">
+                </p>
+                <p>
+                    <input type="button" value="0" class="btn btn-num">
+                    <input type="button" value=" ±" class="btn btn-opera plus-minus-btn">
+                    <input type="button" value="." class="btn btn-num">
+                    <input type="button" value="Exp" class="btn btn-red expo-btn">
+                    <input type="button" value="=" class="btn btn-opera equal">
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

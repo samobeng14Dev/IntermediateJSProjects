@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <section class="container">
+
+        <div class="title">
+            <h1>Rules for the Quiz</h1>
+        </div>
+        <!--rules container-->
+        <div class="rules-container">
+            <div class="rules">
+                1. You will have just <span class="red-text">15 seconds</span> per each question.
+            </div>
+            <div class="rules">
+                2. Your answers cannot be undone once you select them.
+            </div>
+            <div class="rules">
+                3. You cannot select any option once the time is due.
+            </div>
+            <div class="rules">
+                4. You cannot exit from the quiz after attempting it.
+            </div>
+            <div class="rules">5. Points will be awarded for correct answers.</div>
+        </div>
+        <!--Exit and Continue button-->
+        <div>
+            <div class="bottom-btn">
+                <button class="btn exit-btn">Exit</button>
+                <button class="btn continue-btn">Continue</button>
+            </div>
+        </div>
+    </section>
+    <section class="quiz-container">
+        <!-- Quizz Box -->
+        <header class="quiz-header">
+            <h1 class="quiz-title">Awesome Quiz Application</h1>
+            <h1 class="quiz-timer">Time left <span class="timer-sec">15</span></h1>
+        </header>
+        <div class="time-line"></div>
+        <!--Questions container-->
+        <section>
+            <div class="question-container">
+                <div class="question">
+                    <!-- <h1>1.What does HTML stand for?</h1> -->
+                </div>
+            </div>
+            <div class="option-container">
+                <!-- <div class="option-list">
+                    <span>A. Hyper Text Preprocessor</span>
+                    <div class="icon tick"><i class="fas fa-check"></i></div>
+                </div>
+                <div class="option-list">
+                    <span>B. Hyper Text Markup Laguage</span>
+                    <div class="icon times"><i class="fas fa-times"></i></div>
+                </div>
+                <div class="option-list">
+                    <span>C. Hyper Text Multiple Language</span>
+
+                </div>
+                <div class="option-list">
+                    <span>D. Hyper Text Markup Language</span>
+
+                </div> -->
+            </div>
+        </section>
+        <!--footer-->
+        <footer>
+            <p class="footer-text"></p>
+            <button class="btn next-question-btn">Next Question</button>
+        </footer>
+    </section>
+    <!--Congrats container-->
+    <section>
+        <div class="congrats-container">
+            <div class="congrat-icon"><i class="fas fa-crown"></i></div>
+            <div class="congrat-info">
+                Congratulations for completing the quiz! <span class="emoji"></span>,
+                you got 4 out of 5
+            </div>
+            <div class="congrat-btn">
+                <button class="btn replay-btn">Replay Quiz</button>
+                <button class="btn quit-quiz">Quit Quiz</button>
+            </div>
+        </div>
+    </section>
+    <div class="btn-container">
+        <!--start quiz button-->
+        <button class="start-btn">Start Quiz</button>
+        <!--title-->
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
